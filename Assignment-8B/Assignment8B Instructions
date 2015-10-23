@@ -1,0 +1,9 @@
+The Three Dice guessing game program.
+You are to write a C program that will simulate the rolling of three dice. You will add the total of the dice together. You will then ask the user if the next roll will be higher, lower, the same or if they wanna quit playing. With each right guess you will inform the user of the length of their winning streak.
+As with all programs, you need to insert comments, and write neat indented code. Once you are finished you are to attach the *.c program to the assignment thread.
+NOTES/COMMENTS/HINTS
+To seed a random number you will need the following once in your code:
+srand((unsigned)time(NULL));//seed rand function
+To use time() you will need to include time.h
+To generate a random number between LOWERBOUND and UPPERBOUND you will need the following code:
+theNumber = LOWERBOUND + rand() % (UPPERBOUND - LOWERBOUND + 1);
