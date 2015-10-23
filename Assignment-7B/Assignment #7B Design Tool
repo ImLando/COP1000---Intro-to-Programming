@@ -1,0 +1,32 @@
+Orlando Rolon
+Dennis Hunchuck
+Intro to Programming Concepts
+10/11/15
+Design Tool
+1.	Write necessary includes and defines for the application. 
+
+2.	Define variables for the lowesScore statement
+
+3.	Start main
+
+4.	Define variables for main
+
+5.	Get the 7 assignment scores
+
+6.	Calculate the assignmentGrade
+
+7.	Get the 4 exam grades
+
+8.	Use if statements to find out which score is the lowest in the lowesScore statement
+
+9.	Calculate the totalClassPoints
+
+10.	Calculate the classAverage
+
+11.	Use if statements to find out what letter grade to printf
+
+12.	Printf letter grade for the user
+
+13.	Printf the classAverage for the user
+
+14.	End main
