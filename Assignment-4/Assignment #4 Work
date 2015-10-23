@@ -1,0 +1,47 @@
+//*****************************************
+// Name...: Orlando Rolon
+// Date...: 9-13
+// Purpose: Math, Printf and Scanf
+//*****************************************
+
+#define _CRT_SECURE_NO_WARNINGS // Turn off safe commands
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+main() {
+	
+	//declare variables here
+	
+	int num1 = 0;
+	int num2 = 0;
+	int result = 0;
+	int division = 0;
+	int sumplusresult = 0;
+	int cube = 0;
+	int multiply = 0;
+
+	printf("Give me a number...........:");
+	scanf("%i", &num1);
+
+	printf("Give me another number.....:");
+	scanf("%i", &num2);
+
+	result = num1 + num2; 
+	division = num1 / num2;
+	sumplusresult = num1 + num2 + division;
+	cube = pow(num1,3);
+	multiply = division + num1 + num2 * 2;
+
+	printf("\n %i / %i = %i", num1, num2, division);
+
+	printf("\n\n %i + %i + %i = %i \n", num1, num2, division, sumplusresult);
+
+	printf("\n %i cubed is %i \n", num1,cube);
+
+	printf("\n %i + %i + %i * 2 = %i\n\n", division, num1, num2, multiply);
+	
+	system("pause");
+
+
+} // end main
