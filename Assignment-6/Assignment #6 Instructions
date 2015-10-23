@@ -1,0 +1,24 @@
+1.	You are to write a C program.   
+2.	The program will computer payroll for an individual.  
+3.	The program will assume that the person gets paid every Friday (in other words he gets paid every week).  
+4.	The input will be the person’s Hourly Wage and Hours Worked. 
+5.	The output will be as follows (sample output):
+
+Hourly Rate:
+Hours Worked: 
+Regular Pay:
+OT Pay:
+Gross Pay:
+Federal Tax (27%):
+Medical Insurance (14%):
+Net Pay:
+
+1.	You will take the INPUT and COMPUTE THE OUTPUT
+2.	Regular Pay.   Based on United States of America Labor Laws and the INPUTS
+3.	Overtime Pay. Based on United States of America Labor Laws and the INPUTS
+4.	Gross Pay.  That is nothing less than the Regular pay combined with the Overtime pay
+5.	Federal Tax.  Use the percentage above and the Gross Pay
+6.	Medical Insurance.  Use the percentage above and the Gross Pay
+7.	Net Pay.  Take the Gross Pay and deduct the deductions from above.
+You are to include your C Source and your Design Tool.
+Once completed you are to attach your *.C version of the code to Blackboard.  DO NOT ATTACH a *.SLN document to Blackboard.  Do NOT ATTACH a project folder or *.SLN document to Blackboard ever.  Only attach *.c or *.h files.
