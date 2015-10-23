@@ -1,0 +1,15 @@
+You are to write a short C program.   That will input a number between 1 and 50.  Make sure the user only enters a number in that range.  Then display a TRIANGLE of ASTERISKS with that number of rows.  For example, say the user enters the number 10.  Then the output will be as follows:
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+
+If you want to have FUN, also write the code to display the TRIANGLE upside down, backward, backward upside down.
+
+Once completed you are to attach your *.C version of the code to Blackboard.  DO NOT ATTACH a *.SLN document to Blackboard.  Do NOT ATTACH a project folder or *.SLN document to Blackboard ever.  Only attach *.c or *.h files.
