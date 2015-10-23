@@ -1,0 +1,23 @@
+Orlando Rolon
+Dennis Hunchuck
+Intro to Programming Concepts
+9/20/15
+Design Tool
+
+1.	Declare 3 integers. 1 for the rate to ship the package, 1 for the package's weight, and 1 for the distance to ship the package.
+
+2.	Ask the user what the weight of the package is in pounds
+
+3.	Ask the user what the distance is in miles
+
+4.	If the weight is less than or equal to 15 pounds the rate starts at 15 dollars otherwise the rate is 15 dollars plus 50 cents for each pound over 15 pounds
+
+5.	so we subtract fifteen from the weight and multiply by .5 to get the rate for the weight
+
+6.	Then we have to add the rate for the distance
+
+7.	The rate for distance is 10 dollars per 500 miles.
+
+8.	So we divide the distance by 500, and multiply by 10.
+
+9.	and if there is a remainder we just add 10 more dollars;
