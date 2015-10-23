@@ -1,0 +1,5 @@
+COP 1000 ASSIGNMENT
+You are to write a short C program. The program will input two numbers: 1) number of miles to ship a package, and 2) the weight of the package.
+You are to compute the price to ship the package. The formula is as follows. If the weight of the package is <= 15 pound this the rate is $15. If the package is over 15 pounds then the rate is $15 plus 50 cents for each pound over 15. In addition you are to add $10.00 for each 500 miles (or part of) shipped.
+You are to include your C Source and your Design Tool.
+Once completed you are to attach your *.C version of the code to Blackboard. DO NOT ATTACH a *.SLN document to Blackboard. Do NOT ATTACH a project folder or *.SLN document to Blackboard ever. Only attach *.c or *.h files.
