@@ -1,0 +1,28 @@
+Orlando Rolon
+Dennis Hunchuck
+Intro to Programming Concepts
+10/11/15
+Design Tool
+1.	Write necessary includes and defines for the application.
+
+2.	Start main.
+
+3.	Define variables for the program.
+
+4.	Display the request to get the first name of the user.
+
+5.	Get the input from the user.
+
+6.	Display the request for the amount of times they want to repeat their first name.
+
+7.	Get the input from the user.
+
+8.	Start the for loop to repeat the line number and the user’s name.
+
+9.	Display the line numbers and the user’s first name however many times the user wanted it to repeat.
+
+10.	End for loop
+
+11.	System pause
+
+12.	End main
