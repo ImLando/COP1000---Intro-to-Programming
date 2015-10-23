@@ -1,0 +1,47 @@
+//************************************************
+// Name...: Orlando Rolon
+// Date...: 9-20-15
+// Purpose: Calculate shipping price for a package
+//************************************************
+
+#define _CRT_SECURE_NO_WARNINGS // Turn off safe commands
+#include <stdio.h>
+#include <stdlib.h>
+#define PAUSE system("pause")
+
+main() {
+
+	//declare variables here
+
+	int packageDistance = 0.0;
+	float packageWeight = 0.0;
+	float packagePrice = 0.0;
+	
+
+	printf("Input the number of miles the package has to travel...........:");
+	scanf("%i", &packageDistance);
+
+	printf("\nInput the weight of the package...............................:");
+	scanf("%f", &packageWeight);
+
+	if (packageWeight <= 15){ // Shipping program due sunday hint
+		packagePrice = 15;
+
+	}else{
+		packagePrice = (15 + ((packageWeight - 15) * .5 ));
+			
+         }
+
+	if (packageDistance % 500 == 0) {
+		packagePrice += (packageDistance / 500 * 10);
+	}
+	else {
+		packagePrice += ((packageDistance / 500) * 10) + 10;
+	}
+
+
+	printf("\nIt costs $%.2f to ship an item weighing %.2f pounds %.2i miles \n\n", packagePrice, packageWeight, packageDistance);
+
+    PAUSE;
+
+} // end main
