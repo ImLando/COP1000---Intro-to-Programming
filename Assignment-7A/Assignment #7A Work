@@ -1,0 +1,37 @@
+//*************************************************
+// Created by: Orlando Rolon 
+// Date: 10/11/15
+// Purpose: Loop A assignment
+//  
+//*************************************************
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+
+main() {
+
+	
+// Define Variables
+
+char firstName[50];
+int num = 0;
+int i;
+
+printf("Please enter your first name:");
+scanf("%s", firstName);
+
+printf("Please enter the amount of times you want to repeat your first name:");
+scanf("%i", &num);
+
+
+for (i = 0; i < num; i++) { // Start for loop
+
+	printf("%3i. %s\n", i + 1, firstName);
+
+} // End for loop
+
+
+  system("pause"); //Make window stay up
+
+} // END MAIN
