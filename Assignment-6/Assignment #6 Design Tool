@@ -1,0 +1,29 @@
+Orlando Rolon
+Dennis Hunchuck
+Intro to Programming Concepts
+9/27/15
+Design Tool
+
+1.	get hourley rate and hours worked
+
+2.	if hours_worked >= 40 he gets over time 
+
+3.	else hes not getting over time
+
+4.	federal witholding is .27;
+
+5.	meidcal insurance is .14;
+
+6.	use variables to calculate tax;
+
+7.	print
+
+
+8.	Hourly Rate:
+9.	Hours Worked:
+10.	Regular Pay:
+11.	OT Pay:
+12.	Gross Pay:
+13.	Federal Tax (27%):
+14.	Medical Insurance (14%):
+15.	Net Pay:
