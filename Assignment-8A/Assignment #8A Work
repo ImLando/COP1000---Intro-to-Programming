@@ -1,0 +1,98 @@
+//*************************************************
+//
+// Created by: Orlando Rolon 
+// Date: 10/18/15
+// Purpose: Ramdom number gen assignment # 08
+//  
+//*************************************************
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define LB 1 // Lower bound constant to mark the lowest number the random num gen can go
+#define UB 100 // Upper bound constant to mark the highest number the random num gen can go
+#define PAUSE system("pause"); // Code to pause the code until user wants to keep going
+#define CLS system("cls"); // Code to clear the screen
+
+
+main(){ //Start Main
+
+	int randomNum = 0; // Variable to hold the random number the generator outputs
+	int userGuess = 0; // Variable to hold the guess the user inputs 
+	int userTries = 0; // Variable to hold how many tries the user used
+	int menuChoice = 0; // Variable to hold the choice the user picks in the menu
+	int guessCount = 10; // Variable to hold how many guesses the user has left
+
+
+	
+
+do { // Starts do while loop for the manu
+
+	srand((unsigned)time(NULL)); // Seeds the rand fucntion to get a random number
+
+	randomNum = LB + rand() % (UB - LB + 1); // Calculation to get a random number from the constants we gave it.
+
+	CLS; // Clears screen
+			
+
+       userTries = 0; // Reset user tries so they don't accumulate if the game is played again
+	   guessCount = 10; // Reset the amount of guesses the user has so the "guessCount--;" works as intented
+
+		do { // Starts do while loop for the guessing game
+
+
+		printf("Enter a guess from 1 to 100:");
+		scanf("%i", &userGuess); // Get the guess from the user
+		userTries++; // Code to count how many tries the user has used
+		guessCount--; // Code to count how many guesses the user has left
+
+		 if (userGuess > randomNum) { // Start if else to find out if the user needs to guess higher or lower
+
+			printf("\nYour guess was too high, you have %i guesses remaining. Guess lower!\n\n", guessCount);
+
+			PAUSE; // Stop code so the user can read what was printed
+
+			CLS; // Clear screen
+
+			}else if (userGuess < randomNum){
+
+			 printf("\nYour guess was too low, you have %i guesses remaining. Guess Higher!\n\n", guessCount);
+
+			 PAUSE; // Stop code so the user can read what was printed 
+
+			 CLS; // Clear screen
+
+			 } // End if else to find out if the user needs to guess higher or lower
+
+				if (userTries > 9){ // Start if to find out if user went over the 10 guess limit
+
+				break;
+
+				} // End if statement to find out if the user has used up his guesses
+
+
+         } while (userGuess != randomNum); // End do while loop for guess higher and lower calculation
+
+          if (userTries <= 9) { // Start if else to figure out if the user used his 10 guesses or not
+
+          printf("\nYou guessed it, the number was %i. You used %i guesses out of 10.\n\n", randomNum, userTries);
+
+		  }else{
+
+          printf("\nYou used your 10 guesses, the number was %i, please try again!\n\n", randomNum);
+
+		  } // End if else 
+		
+
+			printf("Enter 1 to Play Again!\n\n");
+			printf("Enter 2 to Quit!\n\n");
+			printf("Enter choice:");
+			scanf("%i", &menuChoice); //  Get the user choice for the menu
+
+   } while (menuChoice != 2); //End do while loop for the menu
+
+      printf("\nThanks for Playing!\n\n");
+
+} // END MAIN
