@@ -1,0 +1,27 @@
+// Written by: Orlando Rolon
+// Date Written: Sep 4, 2015
+//Purpose: My first thing
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main() {
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	printf("\n\nOrlando Rolon\n\n");
+	system("pause");
+
+
+} // end of main
